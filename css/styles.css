@@ -1,3 +1,7 @@
+body {
+	font-family: "Roboto", sans-serif;
+	color: #2e2f42;
+}
 .list {
 	list-style: none;
 }
@@ -6,11 +10,55 @@
 	text-decoration: none;
 }
 
+/*================================Components==================*/
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+.title-discription {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+.section-discription {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+.promo-title {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 40px;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	color: #2e2f42;
+}
+/*================================/Components==================*/
+
+/*====Top Line====*/
 .logo {
 	font-family: "Raleway", sans-serif;
 	font-weight: 800;
 	font-size: 18px;
-	line-height: 24px;
+	line-height: 1.5;
 	display: flex;
 	align-items: center;
 	letter-spacing: 0.03em;
@@ -20,10 +68,99 @@
 .logo-black {
 	color: #2e2f42;
 }
+.logo-white {
+	color: #f4f4fd;
+}
 .menu-link {
-	font-family: "Roboto", sans-serif;
 	font-weight: 500;
 	font-size: 16px;
-	line-height: 24px;
+	line-height: 1.5;
 	color: #2e2f42;
+}
+.menu-link:hover,
+.menu-link:focus {
+	color: #4d5ae5;
+}
+
+.contact-email {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+.contact-email:hover,
+.contact-email:focus {
+	color: #4d5ae5;
+}
+
+.contact-phone {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5px;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+.contact-phone:hover,
+.contact-phone:focus {
+	color: #4d5ae5;
+}
+
+.model-btn {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.04em;
+	cursor: pointer;
+	color: #ffffff;
+	background: #4d5ae5;
+}
+
+.model-btn:hover,
+.model-btn:focus {
+	background: #ffffff;
+	color: #4d5ae5;
+}
+
+/*====/Top Line====*/
+
+/*====Hero====*/
+.hero {
+	background: #2e2f42;
+}
+
+.hero-title {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 1.07;
+	letter-spacing: 0.02em;
+	color: #ffffff;
+}
+
+button {
+	font-family: inherit;
+}
+
+.btn-icon {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.04em;
+	color: #4d5ae5;
+}
+.btn-icon:hover,
+.btn-icon:focus {
+	background: #ffffff;
+	color: #4d5ae5;
 }
