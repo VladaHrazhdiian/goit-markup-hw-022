@@ -46,11 +46,24 @@ body {
 	font-style: normal;
 	font-weight: 700;
 	font-size: 36px;
-	line-height: 40px;
+	line-height: 1.11px;
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
 	color: #2e2f42;
 }
+
+.footer {
+	background: #2e2f42;
+}
+.footer-discription {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5px;
+	letter-spacing: 0.02em;
+	color: #e7e9fc;
+}
+
 /*================================/Components==================*/
 
 /*====Top Line====*/
@@ -130,7 +143,7 @@ body {
 
 /*====/Top Line====*/
 
-/*====Hero====*/
+/*===========Hero====*/
 .hero {
 	background: #2e2f42;
 }
@@ -147,6 +160,34 @@ body {
 button {
 	font-family: inherit;
 }
+/*============/Hero====*/
+
+/*============<!--Section 3-->========*/
+.person-title {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2px;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+.work-discription {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5px;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+.title-team {
+	width: 1440px;
+	background: #f4f4fd;
+}
+/*============/<!--Section 3-->========*/
+
+/*=================Filters===============*/
 
 .btn-icon {
 	font-style: normal;
@@ -164,3 +205,23 @@ button {
 	background: #ffffff;
 	color: #4d5ae5;
 }
+.service-title {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2px;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+.service-description {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+/*=================/Filters===============*/
