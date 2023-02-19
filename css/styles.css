@@ -169,6 +169,10 @@ button {
 	align-items: center;
 	text-align: center;
 	letter-spacing: 0.04em;
+	font-size: 16px;
+	order: 1px solid #e7e9fc;
+	border-radius: 4px;
+	cursor: pointer;
 	background: #f4f4fd;
 	color: var(--accent-color);
 }
@@ -176,6 +180,7 @@ button {
 .btn-icon:focus {
 	background: #404bbf;
 	color: #ffffff;
+	border-color: var(--accent-color);
 }
 .service-title {
 	font-weight: 500;
